@@ -1,0 +1,262 @@
+@font-face {
+    font-family: Queen;
+    src: url(QueenslandFree.ttf);
+}
+
+
+
+
+h1 {
+    Position: absolute;
+    font-size: 125px;
+    color: forestgreen;
+    z-index: 2;
+    font-family: Queen;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: greenyellow;
+    left: 5%;
+    top: 2%;
+
+}
+
+#tint {
+    position: absolute;
+    display: inline-block;
+    background-color: black;
+    width: 100%;
+    height: 2048px;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    opacity: 0.6;
+}
+
+#Main-img {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    z-index: 0;
+    margin: auto;
+    top: 0px;
+    left: 0px;
+    height: 1024px;
+}
+
+#Nature-img {
+    margin: auto;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+}
+
+#Info1 {
+    position: absolute;
+    display: inline-block;
+    font-size: 17px;
+    color: white;
+    z-index: 4;
+    font-family: sans-serif;
+    width: 60%;
+    font-weight: bold;
+    padding: 8px;
+    bottom: 13%;
+    right: 35%;
+    line-height: 1.5;
+    background-color:forestgreen;
+    border-style: solid;
+    border-color: greenyellow;
+  
+}
+
+#Gcoast {
+    Position: absolute;
+    width: 25%;
+    height: 50%;
+    z-index: 4;
+    right: 100px;
+    top: 75px;
+    margin: 0;
+    border-radius: 40px;
+}
+
+#Bridge {
+    Position: absolute;
+    width: 25%;
+    height: 50%;
+    z-index: 4;
+    right: 100px;
+    top: 500px;
+    margin: auto;
+    border-radius: 40px;
+
+}
+
+#Gcoast-txt {
+    Position: absolute;
+    font-size: 25px;
+    color: gold;
+    z-index: 10;
+    right: 19%;
+    top: 18%;
+    font-family: sans-serif;
+    font-weight: bold;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    
+
+
+}
+#Bridge-txt {
+    Position: absolute;
+    font-size: 25px;
+    color: skyblue;
+    z-index: 10;
+    right: 20%;
+    top: 85%;
+    font-family: sans-serif;
+    font-weight: bold;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    
+
+
+}
+
+#Leafs1 {
+    Position: absolute;
+    width: 30%;
+    height: 30%;
+    z-index: 4;
+    top: 0;
+    left: 0;
+
+
+}
+
+#Leafs2 {
+    Position: absolute;
+    width: 30%;
+    height: 30%;
+    z-index: 7;
+    top: -7%;
+    left: 20%;
+    -webkit-transform: rotate(0deg);
+
+
+}
+
+#Leafs3 {
+    Position: absolute;
+    width: 30%;
+    height: 30%;
+    z-index: 6;
+    top: 100px;
+    ;
+    left: -10%;
+    -webkit-transform: rotate(290deg);
+    overflow: hidden;
+
+}
+
+#Leafs4 {
+    Position: absolute;
+    width: 30%;
+    height: 30%;
+    z-index: 5;
+    margin-top: -190px;
+    left: 7;
+    -webkit-transform: rotate(330deg);
+    overflow: hidden;
+
+
+}
+
+#Leafs5 {
+    Position: absolute;
+    width: 30%;
+    height: 30%;
+    z-index: 7;
+    top: -7%;
+    left: 30%;
+    -webkit-transform: rotate(10deg);
+}
+
+#Leafs6 {
+    Position: absolute;
+    width: 30%;
+    height: 30%;
+    z-index: 7;
+    top: -7%;
+    left: 50%;
+    -webkit-transform: rotate(5deg);
+}
+
+#Leafs7 {
+    Position: absolute;
+    width: 30%;
+    height: 30%;
+    z-index: 7;
+    top: -7%;
+    right: 0%;
+    -webkit-transform: rotate(0deg);
+}
+#Leafs8 {
+    Position: absolute;
+    width: 30%;
+    height: 30%;
+    z-index: 7;
+    top: -7%;
+    right: 30%;
+    -webkit-transform: rotate(0deg);
+}
+#Leafs9 {
+    Position: absolute;
+    width: 30%;
+    height: 30%;
+    z-index: 8;
+    top: -7%;
+    right: 60%;
+    -webkit-transform: rotate(0deg);
+}
+#Map{
+Position: absolute;
+width: 18%;
+height: 40%;
+z-index: 4;
+margin: auto;
+left: 47%;
+top: 5%;
+transition: transform .2s;
+}
+#Map:hover + #Kangaroo{
+transform: scale(1.2);
+z-index: 15;
+}
+#Kangaroo{
+Position: absolute;
+Display: Inline-block;
+width: 100%;
+height: 100%;
+
+top: 0%;
+right: 0%;
+Opacity: 0;
+}
+#KangarooJump{
+Position: absolute;
+width: 2%;
+height: 5%;
+z-index: 5;
+margin: auto;
+left: 55%;
+top: 15%;
+background-color: red;
+border-radius: 50%;
+
+}
+#Kangaroo: :hover{
+Display: block;
+transform:scale(10.0)
+Opacity: 1;
+}
