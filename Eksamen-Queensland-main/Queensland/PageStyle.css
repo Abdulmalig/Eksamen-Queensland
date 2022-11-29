@@ -1,0 +1,134 @@
+@font-face {
+    font-family: Queen;
+    src: url(QueenslandFree.ttf);
+}
+
+
+
+
+h1 {
+    Position: absolute;
+    font-size: 175px;
+    color: forestgreen;
+    z-index: 2;
+    font-family: Queen;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: greenyellow;
+    right: 900px;
+
+
+}
+
+#tint {
+    position: absolute;
+    display: inline-block;
+    background-color: black;
+    width: 100%;
+    height: 2048px;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    opacity: 0.4;
+}
+
+#Main-img {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    z-index: 0;
+    margin: auto;
+    top: 0px;
+    left: 0px;
+    height: 1024px;
+}
+
+#Nature-img {
+    margin: auto;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    height: 1024px;
+}
+
+#Info1 {
+    position: absolute;
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+    z-index: 5;
+}
+
+#Gcoast {
+    Position: absolute;
+    width: 350px;
+    height: 400px;
+    z-index: 4;
+    right: 100px;
+    top: 75px;
+    margin: 0;
+    border-radius: 40px;
+}
+
+#Bridge {
+    Position: absolute;
+    width: 350px;
+    height: 400px;
+    z-index: 4;
+    right: 100px;
+    top: 500px;
+    margin: auto;
+    border-radius: 40px;
+
+}
+
+#Gcoast-txt {
+    Position: absolute;
+    font-size: 40px;
+    color: greenyellow;
+    z-index: 4;
+
+
+}
+
+#Leafs1 {
+    Position: absolute;
+    width: 600px;
+    height: 350px;
+    z-index: 4;
+    top: 0;
+    left: 0;
+
+
+}
+#Leafs2 {
+    Position: absolute;
+    width: 600px;
+    height: 350px;
+    z-index: 5;
+    top: 0;
+    left: 400px;
+    -webkit-transform:rotate(0deg);
+
+
+}
+#Leafs3 {
+    Position: absolute;
+    width: 600px;
+    height: 350px;
+    z-index: 6;
+    top: 100px;;
+    left: -130px;
+    -webkit-transform:rotate(310deg);
+
+}
+#Leafs4 {
+    Position: absolute;
+    width: 600px;
+    height: 350px;
+    z-index: 5;
+    margin-top: -190px;
+    left: 790px;
+    -webkit-transform:rotate(330deg);
+
+
+}
